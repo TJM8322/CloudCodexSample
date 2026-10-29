@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-30",
+  "title": "JIMTOF2026 訪問ブース一覧",
+  "routeHalls": [
+    "東7",
+    "東3",
+    "東2",
+    "東1",
+    "南2",
+    "南4"
+  ],
+  "routes": [
+    [
+      "10:10",
+      "東7ホール",
+      "FARO／アメテック E7030"
+    ],
+    [
+      "〜11:15",
+      "東7ホール",
+      "3Dスキャナ群・ハンド・SIer候補"
+    ],
+    [
+      "11:30",
+      "東3ホール",
+      "シーメンス E3006 ヒューマノイド＋協働ロボのデモ（11:30／14:00）"
+    ],
+    [
+      "〜12:30",
+      "東3 → 東2 → 東1",
+      "OnRobot（NKワークス）・オークマ・アマダ・（アイダ）"
+    ],
+    [
+      "昼",
+      "展示棟間移動",
+      "東7からシャトルバス，東1からジャンボタクシーで南展示棟へ"
+    ],
+    [
+      "午後",
+      "南2 → 南4",
+      "ファナック・三菱電機・シュンク → 原製作所・きさげロボ"
+    ],
+    [
+      "立寄り候補",
+      "西2ホール",
+      "松本機械工業 W2070．別棟のため移動時間に注意．"
+    ],
+    [
+      "立寄り候補",
+      "南3ホール",
+      "三菱商事テクノス S3100．小間番号を現地の公式図面で再確認．"
+    ]
+  ],
+  "booths": [
+    {
+      "id": "E7030|FARO（アメテック）",
+      "number": "E7030",
+      "name": "FARO（アメテック）",
+      "hall": "東7",
+      "category": "t5",
+      "priority": "重点",
+      "description": "レーザートラッカ／アーム／3Dスキャナ．最初に訪問．",
+      "question": "工場・設備丸ごとスキャン→デジタルツイン化の手順と費用，受託計測の有無",
+      "pin": {
+        "page": "east7",
+        "x": 67.29,
+        "y": 41.05,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E7025|アメテック（別小間）",
+      "number": "E7025",
+      "name": "アメテック（別小間）",
+      "hall": "東7",
+      "category": "t5",
+      "priority": "",
+      "description": "同社の別ブース（内容未確認）．",
+      "question": "Creaform系の展示有無",
+      "pin": {
+        "page": "east7",
+        "x": 68,
+        "y": 24.21,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E7035|Hexagon",
+      "number": "E7035",
+      "name": "Hexagon",
+      "hall": "東7",
+      "category": "t5",
+      "priority": "",
+      "description": "全デジタル三次元測定機MAESTROを国内初展示．",
+      "question": "スキャナ／ソフトでリバースエンジニアリングまで一気通貫できるか",
+      "pin": {
+        "page": "east7",
+        "x": 79.71,
+        "y": 77.72,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E7014|SHINING 3D",
+      "number": "E7014",
+      "name": "SHINING 3D",
+      "hall": "東7",
+      "category": "t5",
+      "priority": "重点",
+      "description": "OptimScan Q12，FreeScan Omni，RobotScan Trak Nova．リバースエンジニアリング・DXを訴求．",
+      "question": "ロボット搭載の自動スキャン（インライン検査にも転用可か），価格帯",
+      "pin": {
+        "page": "east7",
+        "x": 72.57,
+        "y": 26.84,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E7013|SCANOLOGY（APPLE TREE）",
+      "number": "E7013",
+      "name": "SCANOLOGY（APPLE TREE）",
+      "hall": "東7",
+      "category": "t5",
+      "priority": "",
+      "description": "大型部品・配管・曲面を非接触で3D化．",
+      "question": "大型物・設備のスキャン可否",
+      "pin": {
+        "page": "east7",
+        "x": 74.86,
+        "y": 26.84,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E7086|TACC",
+      "number": "E7086",
+      "name": "TACC",
+      "hall": "東7",
+      "category": "t5",
+      "priority": "",
+      "description": "Revopoint Trackit SR（ワイヤレス，最大4m，低価格），V-STARS，レベリングレーザ．",
+      "question": "低価格機の精度と限界，FAROとの使い分け",
+      "pin": {
+        "page": "east7",
+        "x": 33.86,
+        "y": 45.96,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E7015|スリーアールソリューション",
+      "number": "E7015",
+      "name": "スリーアールソリューション",
+      "hall": "東7",
+      "category": "t5",
+      "priority": "",
+      "description": "内容未確認．",
+      "question": "—",
+      "pin": {
+        "page": "east7",
+        "x": 72.57,
+        "y": 24.21,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E7096|近藤製作所",
+      "number": "E7096",
+      "name": "近藤製作所",
+      "hall": "東7",
+      "category": "t6",
+      "priority": "重点",
+      "description": "協働ロボ用エア／電動ハンド，ツールチェンジャ，クイックアジャスタ，スマートスペースロボ．協働ロボのデモあり．",
+      "question": "プレス材料の出し入れに使えるハンド，ツールチェンジでの段替え．ハンド単品だけでなく，ロボット，架台，ストッカー，安全機器，制御盤を含む設備一式を受託できるか確認．",
+      "pin": {
+        "page": "east7",
+        "x": 31,
+        "y": 88.07,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E7069|三和ロボティクス",
+      "number": "E7069",
+      "name": "三和ロボティクス",
+      "hall": "東7",
+      "category": "t1",
+      "priority": "",
+      "description": "内容未確認（社名からロボットシステム系と推測）．",
+      "question": "外注FAパートナーになり得るか，対応エリア，得意分野",
+      "pin": {
+        "page": "east7",
+        "x": 52.57,
+        "y": 17.72,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "W2070|松本機械工業",
+      "number": "W2070",
+      "name": "松本機械工業",
+      "hall": "西2",
+      "category": "t1",
+      "priority": "A～B",
+      "description": "ロボット，ストッカー，ハンドを組み合わせた自動化．",
+      "question": "組立・マテハン設備まで一式受託できるか，現地立上げや新潟対応を確認．",
+      "pin": {
+        "page": "west2",
+        "x": 37.5,
+        "y": 27.5,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E3006|シーメンス",
+      "number": "E3006",
+      "name": "シーメンス",
+      "hall": "東3",
+      "category": "t3",
+      "priority": "重点",
+      "description": "Simcenterの実行型デジタルツイン，Run My Virtual Machine，Industrial Edge．ヒューマノイド＋協働ロボのデモ 11:30／14:00．",
+      "question": "設備単体DT→工場DTの導入順序，中小規模での最小構成と費用",
+      "pin": {
+        "page": "east3",
+        "x": 84.62,
+        "y": 55.44,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E3015|NKワークス（OnRobot）",
+      "number": "E3015",
+      "name": "NKワークス（OnRobot）",
+      "hall": "東3",
+      "category": "t6",
+      "priority": "重点",
+      "description": "OnRobot 3FG15などのグリッパ．",
+      "question": "板材や小物プレス品の把持，各社協働ロボとの互換性",
+      "pin": {
+        "page": "east3",
+        "x": 67.18,
+        "y": 49.33,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E3028|オークマ",
+      "number": "E3028",
+      "name": "オークマ",
+      "hall": "東3",
+      "category": "t4",
+      "priority": "",
+      "description": "AIエージェント（参考出展），ARMROID，協働ロボ．",
+      "question": "AIエージェントの仕組み",
+      "pin": {
+        "page": "east3",
+        "x": 23.85,
+        "y": 39.33,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E2031|芝浦機械",
+      "number": "E2031",
+      "name": "芝浦機械",
+      "hall": "東2",
+      "category": "t1",
+      "priority": "A",
+      "description": "FA外注候補．ロボットによるピッキング，重量物ハンドリング，設備への自動搬入・搬出など．",
+      "question": "専用FA設備を構想・設計から組立，立上げまで一括受託できるか確認．",
+      "pin": {
+        "page": "east2",
+        "x": 32,
+        "y": 28.1,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E2012|アマダ／アマダプレスシステム",
+      "number": "E2012",
+      "name": "アマダ／アマダプレスシステム",
+      "hall": "東2",
+      "category": "t2",
+      "priority": "重点",
+      "description": "順送プレス自動化システム SDEW-8010iIII GORIKI＋ALFAS-03KR，製造DX LIVLOTS．プレゼンは10:30／11:30／13:30／14:30／15:30．",
+      "question": "プレスのデジタルツイン（成形シミュレーション・稼働の見える化）の有無，LIVLOTSのプレス適用",
+      "pin": {
+        "page": "east2",
+        "x": 71.84,
+        "y": 30,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E2022|ゼネテック",
+      "number": "E2022",
+      "name": "ゼネテック",
+      "hall": "東2",
+      "category": "t3",
+      "priority": "",
+      "description": "内容未確認．",
+      "question": "工場シミュレーションの取り扱い有無",
+      "pin": {
+        "page": "east2",
+        "x": 48.95,
+        "y": 56.67,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E2024|愛知産業",
+      "number": "E2024",
+      "name": "愛知産業",
+      "hall": "東2",
+      "category": "t1",
+      "priority": "B",
+      "description": "自動化設備の取りまとめ候補．",
+      "question": "プレス周辺，組立，検査，梱包まで一括対応可能か確認．",
+      "pin": {
+        "page": "east2",
+        "x": 56,
+        "y": 61.3,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "E1059|アイダエンジニアリング",
+      "number": "E1059",
+      "name": "アイダエンジニアリング",
+      "hall": "東1",
+      "category": "t7",
+      "priority": "",
+      "description": "サーボプレスと周辺装置（内容未確認）．プレス本体は通り沿いにあれば．",
+      "question": "プレス本体に加え，投入・取出し，搬送，安全制御，デジタル検証への対応を確認．",
+      "pin": {
+        "page": "east1",
+        "x": 18.48,
+        "y": 43.11,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "S2001|ファナック",
+      "number": "S2001",
+      "name": "ファナック",
+      "hall": "南2",
+      "category": "t4",
+      "priority": "重点",
+      "description": "オープンプラットフォームのフィジカルAI（生成AIでロボット駆動），協働ロボCRX，ROBOGUIDE＋NVIDIA Isaac Simの仮想工場，Smart Digital Twin．",
+      "question": "Isaac Sim連携の実装範囲，軌道生成AIの実機適用，CRXのプレス機への応用事例．組立，マテハン，プレス投入・取出しに対応できるSIerの紹介を依頼．",
+      "pin": {
+        "page": "south2",
+        "x": 72.94,
+        "y": 20.41,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "S2003|三菱電機",
+      "number": "S2003",
+      "name": "三菱電機",
+      "hall": "南2",
+      "category": "t3",
+      "priority": "",
+      "description": "FAデジタルソリューション，放電加工機向けスケジューラ，AI活用のCNC．",
+      "question": "工場のデータ連携の範囲．新潟県・近県で設備構想から立上げまで対応可能な三菱系SIerの紹介を依頼．",
+      "pin": {
+        "page": "south2",
+        "x": 39.06,
+        "y": 44.18,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "S2024|シュンク・ジャパン",
+      "number": "S2024",
+      "name": "シュンク・ジャパン",
+      "hall": "南2",
+      "category": "t6",
+      "priority": "重点",
+      "description": "ロボットハンド・グリッパ（協働ロボ用を含む）．",
+      "question": "マグネット・電動グリッパでの板材ハンドリング",
+      "pin": {
+        "page": "south2",
+        "x": 80.24,
+        "y": 44.18,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "S3100|三菱商事テクノス",
+      "number": "S3100",
+      "name": "三菱商事テクノス",
+      "hall": "南3",
+      "category": "t1",
+      "priority": "B",
+      "description": "商社・エンジニアリング型のFA外注候補．",
+      "question": "構想から現地立上げまで元請け対応できるか確認．小間番号は当日の公式マップで再確認．",
+      "pin": {
+        "page": "south3",
+        "x": 37.5,
+        "y": 57.9,
+        "accuracy": "approx"
+      }
+    },
+    {
+      "id": "S4037|原製作所",
+      "number": "S4037",
+      "name": "原製作所",
+      "hall": "南4",
+      "category": "t5",
+      "priority": "重点",
+      "description": "3Dスキャン・リバースエンジニアリングの受託．PolyScan V（国内初展示），ATOS＋Zeiss Scanportによる自動計測．出張計測あり．",
+      "question": "工場・設備の3D化と3D CAD化の受託範囲，納期，費用感",
+      "pin": {
+        "page": "south4",
+        "x": 32.35,
+        "y": 41.63,
+        "accuracy": "good"
+      }
+    },
+    {
+      "id": "南4|企画展示：きさげロボット",
+      "number": "南4",
+      "name": "企画展示：きさげロボット",
+      "hall": "南4",
+      "category": "t4",
+      "priority": "",
+      "description": "ファナックのきさげロボットと熟練者の協業．",
+      "question": "—",
+      "pin": {
+        "page": "south4",
+        "x": 70,
+        "y": 38.98,
+        "accuracy": "approx"
+      }
+    },
+    {
+      "id": "ガレリア|企画展示：Kaleido",
+      "number": "ガレリア",
+      "name": "企画展示：Kaleido",
+      "hall": "ガレリア",
+      "category": "t7",
+      "priority": "",
+      "description": "川崎重工のヒューマノイド（通り道ついでに見る程度）．",
+      "question": "—",
+      "pin": null
+    }
+  ]
+}
